@@ -100,10 +100,10 @@ ul {
     font-size: 15px;
     font-weight: bold;
     outline: none;
+    transition-duration: 0.2s;
 }
 
 .button:hover {
-    transition-duration: 0.2s;
     color: black;
     background-color: white;
     opacity: 0.8;
