@@ -74,9 +74,8 @@ ul {
     display: flex;
     align-items: center;
     background: linear-gradient( rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg_header.jpeg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: cover;
 }
 
 .page {
@@ -146,6 +145,7 @@ ul {
 .form {
     width: 35%;
     height: 40vh;
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -159,6 +159,7 @@ ul {
 .form__title {
     text-align: center;
     font-weight: 800;
+    border-radius: 3px;
     background-color: #F5F5F5;
     padding: 1rem;
 }
@@ -175,7 +176,9 @@ ul {
     font-size: 1.1rem;
     font-weight: 600;
     color: white;
-    background-color: #FF8B38;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #FF8B38;    
     padding: 1rem;
     border: none;
     cursor: pointer;
@@ -471,15 +474,22 @@ ul {
 .contact__form__user {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contact__input {
     border: none;
-    margin: 40px 0 9px 8px;
+    margin: 40px 0 0 0;
     padding-bottom: 9px;
     border-bottom: 1px solid #BDBDBD;
     color: #BDBDBD;
+}
+
+.sec_in {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 43px;
 }
 
 .sec_cont {
@@ -503,7 +513,7 @@ ul {
     border: none;
     color: white;
     padding: 15px 22px;
-    margin: 43px 0 80px 0;
+    margin: 0 auto;
     cursor: pointer;
 }
 
