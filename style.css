@@ -216,7 +216,6 @@ ul {
 .footer__head__svg {
     width: 80%;
     display: flex;
-    justify-content: flex-end;
     justify-content: space-around;
 }
 
@@ -513,7 +512,7 @@ ul {
     border: none;
     color: white;
     padding: 15px 22px;
-    margin: 0 auto;
+    margin: 43px auto 80px;
     cursor: pointer;
 }
 
