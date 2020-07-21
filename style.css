@@ -551,6 +551,7 @@ ul {
     .header__nav__item {
         margin: 0.5rem;
     }
+
 }
 
 @media all and (max-width: 950px) {
@@ -574,13 +575,12 @@ ul {
     }
 
     .logo {
-        justify-content: center;
         text-align: center;
         margin: 0 auto;
     }
 
     .form {
-        min-width: 300px;
+        min-width: 400px;
     }
 
     .line_white {
@@ -658,5 +658,24 @@ ul {
         min-width: 160px;
         margin: 0 auto;
     }
+}
+
+@media all and (max-width: 450px) {
+
+    .logo {
+        min-width: 320px;
+    }
+
+    .description {
+        max-width: 300px;
+        margin: 0 auto 1rem;
+    }
+
+    .form {
+        min-width: 300px;
+    }
+
+
+
 }
 
