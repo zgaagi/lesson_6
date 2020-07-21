@@ -561,7 +561,7 @@ ul {
     }
 
     .content-info {
-        max-width: 320px;
+        max-width: 400px;
         margin-top: 5rem;
     }
 
@@ -671,6 +671,7 @@ ul {
     }
 
     .content-info {
+        max-width: 320px;
         margin-top: 1rem;
     }
 
