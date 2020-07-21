@@ -561,7 +561,7 @@ ul {
     }
 
     .content-info {
-        min-width: 400px;
+        max-width: 400px;
         margin-top: 5rem;
     }
 
@@ -660,10 +660,23 @@ ul {
     }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 470px) {
+
+    .title_white {
+        font-size: 1.4rem;
+    }
+
+    .logo__text {
+        font-size: 5rem;
+    }
+
+    .content-info {
+        max-width: 320px;
+        margin-top: 1rem;
+    }
 
     .logo {
-        min-width: 320px;
+        max-width: 320px;
     }
 
     .description {
@@ -676,8 +689,3 @@ ul {
     }
 }
 
-@media all and (max-width: 320px) {
-    .main {
-        min-width: 320px;
-    }
-}
