@@ -641,7 +641,7 @@ ul {
 
     .sec_in {
         flex-direction: column;
-        min-width: 300px;
+        min-width: 280px;
     }
 
     .sec_cont {
@@ -674,7 +674,8 @@ ul {
     .form {
         min-width: 300px;
     }
-
+    
+    
 
 
 }
