@@ -652,6 +652,10 @@ textarea {
         height: auto;
     }
 
+    .svg__gray {
+        margin: 10px;
+    }
+
     .body__heading {
         flex-wrap: wrap;
     }
