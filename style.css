@@ -699,6 +699,13 @@ textarea {
     }
 }
 
+@media all and (max-width: 570px) {
+    .wrapper__item__line-wh {
+        height: 0;
+        border: 2px solid #FF8D2D;
+    }
+}
+
 @media all and (max-width: 470px) {
 
     .title_white {
