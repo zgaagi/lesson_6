@@ -279,10 +279,6 @@ ul {
     margin-bottom: 29px;
 }
 
-.body__column_mr-l-r {
-    /* margin: 0 30px; */
-}
-
 .body__column__square_img__keyboard {
     background-image: url(images/keyboard.png);
     background-repeat: no-repeat;
@@ -368,9 +364,6 @@ ul {
     font-weight: 700;
 }
 
-.wrapper__list__mr-l-r {
-    /* margin: 0 40px; */
-}
 
 .wrapper__item__price__italic {
     font-style: italic;
@@ -686,6 +679,20 @@ ul {
 
     .form {
         min-width: 300px;
+    }
+
+    .sec_cont {
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+
+    .sec_mess {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer__section {
+        display: flex;
     }
 }
 
