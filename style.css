@@ -503,6 +503,7 @@ input {
 }
 
 textarea {
+    min-width: 200px;
     outline: none;
 }
 
@@ -643,6 +644,10 @@ textarea {
 
 @media all and (max-width: 820px) {
 
+    .content-info {
+        min-width: 300px;
+    }
+
     .wrapper {
         height: auto;
     }
@@ -708,6 +713,10 @@ textarea {
 }
 
 @media all and (max-width: 470px) {
+
+    .content-info {
+        min-width: 280px;
+    }
 
     .title_white {
         font-size: 1.4rem;
