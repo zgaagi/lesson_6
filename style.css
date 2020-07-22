@@ -675,6 +675,7 @@ textarea {
     .wrapper__item__line-wh {
         height: 41px;
         border: none;
+        border-top: 3px solid #FF8D2D;
         background-color: white;
     }
 
