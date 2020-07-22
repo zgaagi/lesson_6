@@ -73,6 +73,7 @@ ul {
 
 .header-nav__link:hover {
     color: white;
+    border-bottom: 1px solid white;
     opacity: 0.6;
 }
 
