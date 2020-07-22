@@ -682,17 +682,13 @@ ul {
     }
 
     .sec_cont {
-        width: 80%;
-        margin: 0 auto 3rem;
+        width: 85%;
+        margin-left: 0;
     }
 
     .sec_mess {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .footer__section {
-        display: flex;
+        width: 85%;
+        margin-left: 0;
     }
 }
 
