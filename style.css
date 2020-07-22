@@ -184,18 +184,27 @@ ul {
     margin: 0 auto;
 }
 
+.form__input:focus {
+    font-weight: 600;
+}
+
 .form__btn {
     font-size: 1.1rem;
     font-weight: 600;
     color: white;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-    background-color: #FF8B38;    
+    background-color: #FF8B38; 
+    transition-duration: 0.2s;
     padding: 1rem;
     border: none;
     cursor: pointer;
     outline: none;
+}
 
+.form__btn:hover {
+    background-color: white;
+    color: black;
 }
 
 .footer__head {
@@ -489,12 +498,25 @@ ul {
     margin-bottom: 5rem;
 }
 
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
 .contact__input {
     border: none;
     margin: 40px 0 0 0;
     padding-bottom: 9px;
     border-bottom: 1px solid #BDBDBD;
     color: #BDBDBD;
+}
+
+.contact__input:focus {
+    color: black;
+    font-weight: 600;
 }
 
 .sec_in {
@@ -649,6 +671,12 @@ ul {
         flex: 1;
         margin: 0 1rem 1rem 0;
     }  
+
+    .wrapper__item__line-wh {
+        height: 41px;
+        border: none;
+        background-color: white;
+    }
 
     .sec_in {
         flex-direction: column;
